@@ -2,7 +2,8 @@
   "name": "@dalongrong/cratedb-driver",
   "description": "Cube.js Postgres database driver",
   "author": "rongfengliang",
-  "version": "0.26.54",
+  "version": "1.0.0",
+  "public": true,
   "repository": {
     "type": "git",
     "url": "https://github.com/rongfengliang/cubejs-cratedb-driver"
