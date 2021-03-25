@@ -1,8 +1,8 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/bin/yarn publish
+  /usr/local/bin/node /usr/local/bin/yarn publish --access public
 
 PATH: 
-  /Users/dalong/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Users/dalong/.sdkman/candidates/maven/current/bin:/Users/dalong/.sdkman/candidates/java/current/bin:/Users/dalong/.cargo/bin:/Users/dalong/go/bin:/Users/dalong/tools/apache-maven-3.6.3/bin:/Users/dalong/proto/protoc-3.15.2-osx-x86_64/bin:/Users/dalong/go/bin:/Users/dalong/.cargo/bin:/Users/dalong/tools/apache-maven-3.6.3/bin:/Users/dalong/proto/protoc-3.15.2-osx-x86_64/bin
+  /var/folders/nz/mm_h43094js2n_20wddv67rw0000gn/T/yarn--1616665061860-0.9924500659706521:/Users/dalong/mylearning/cubejs-cratedb/node_modules/.bin:/Users/dalong/.config/yarn/link/node_modules/.bin:/usr/local/libexec/lib/node_modules/npm/bin/node-gyp-bin:/usr/local/lib/node_modules/npm/bin/node-gyp-bin:/usr/local/bin/node_modules/npm/bin/node-gyp-bin:/Users/dalong/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Users/dalong/.sdkman/candidates/maven/current/bin:/Users/dalong/.sdkman/candidates/java/current/bin:/Users/dalong/.cargo/bin:/Users/dalong/go/bin:/Users/dalong/tools/apache-maven-3.6.3/bin:/Users/dalong/proto/protoc-3.15.2-osx-x86_64/bin:/Users/dalong/go/bin:/Users/dalong/.cargo/bin:/Users/dalong/tools/apache-maven-3.6.3/bin:/Users/dalong/proto/protoc-3.15.2-osx-x86_64/bin
 
 Yarn version: 
   1.22.1
@@ -31,7 +31,7 @@ npm manifest:
     "name": "@dalongrong/cratedb-driver",
     "description": "Cube.js Postgres database driver",
     "author": "rongfengliang",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "public": true,
     "repository": {
       "type": "git",
@@ -40,7 +40,7 @@ npm manifest:
     "engines": {
       "node": ">=10.8.0"
     },
-    "main": "driver/CrateDBDriver.js",
+    "main": "driver/index.js",
     "dependencies": {
       "@cubejs-backend/query-orchestrator": "^0.26.54",
       "@cubejs-backend/schema-compiler": "^0.26.67",
@@ -57,7 +57,6 @@ npm manifest:
     "scripts": {
       "p": "yarn publish --access public"
     }
-  
   }
 
 yarn manifest: 

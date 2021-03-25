@@ -16,7 +16,7 @@ class CrateDBParamAllocator extends ParamAllocator {
   }
 }
 
-export class CrateDBQuery extends BaseQuery {
+module.exports =  class CrateDBQuery extends BaseQuery {
   newParamAllocator() {
     return new CrateDBParamAllocator();
   }
