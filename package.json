@@ -1,0 +1,31 @@
+{
+  "name": "@dalongrong/cratedb-driver",
+  "description": "Cube.js Postgres database driver",
+  "author": "rongfengliang",
+  "version": "0.26.54",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rongfengliang/cubejs-cratedb-driver"
+  },
+  "engines": {
+    "node": ">=10.8.0"
+  },
+  "main": "driver/CrateDBDriver.js",
+  "dependencies": {
+    "@cubejs-backend/query-orchestrator": "^0.26.54",
+    "@cubejs-backend/schema-compiler": "^0.26.67",
+    "moment": "^2.24.0",
+    "pg": "^8.2.1"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@cubejs-backend/linter": "^0.26.54"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "p": "yarn publish --access public"
+  }
+
+}
