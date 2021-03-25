@@ -2,7 +2,7 @@
   "name": "@dalongrong/cratedb-driver",
   "description": "Cube.js Postgres database driver",
   "author": "rongfengliang",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "public": true,
   "repository": {
     "type": "git",
@@ -11,7 +11,7 @@
   "engines": {
     "node": ">=10.8.0"
   },
-  "main": "driver/CrateDBDriver.js",
+  "main": "driver/index.js",
   "dependencies": {
     "@cubejs-backend/query-orchestrator": "^0.26.54",
     "@cubejs-backend/schema-compiler": "^0.26.67",
@@ -28,5 +28,4 @@
   "scripts": {
     "p": "yarn publish --access public"
   }
-
 }
